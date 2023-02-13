@@ -1,0 +1,923 @@
+
+
+.headerup{
+    background-color: #07294d;
+}
+.mail {
+    text-align: left;
+    line-height: 35px;
+}
+.mail a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Exo 2', sans-serif;
+}
+.mail a:hover{
+    color: #0c8b51;
+    transition: .5s;
+}
+.headerup {
+    padding: 6px 0;
+}
+.headerup ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.headerup ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.headerup ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 31px;
+    color: #7c6a64;
+}
+.headerup ul li a:hover{
+    color: white;
+    transition: .5s;
+}
+
+
+/* menu section */
+.menu-section {
+    background-color: white;
+}
+.logo{}
+.logo img {
+    width: 134px;
+}
+.menu{}
+.menu ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Exo 2';
+    padding: 0 35px;
+    line-height: 87px;
+    font-weight: 600;
+}
+.menu ul li a:hover{
+    color: #0c8b51;
+    transition: .5s;
+}
+
+/* Banner section */
+.banner-section {
+    background-image: url(img/slider-2.webp);
+    background-size: cover;
+    padding: 220px 0;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.banner h2 {
+    width: 550px;
+    color: white;
+    font-size: 72px;
+}
+.banner a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 25px;
+    background-color: #0c8b51;
+    color: white;
+    font-size: 17px;
+    font-family: 'Exo 2';
+    padding: 15px 20px;
+    margin-right: 24px;
+}
+.banner a:hover{
+    background-color: #07294d;
+    transition: .5s;
+}
+.learnmorebtn a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 25px;
+    background-color: #07294d;
+    color: white;
+    font-size: 17px;
+    font-family: 'Exo 2';
+    padding: 15px 20px;
+    margin-right: 24px;
+}
+.learnmore a:hover{
+    background-color: #0c8b51 !important;
+    transition: .5s;
+}
+
+/* Educational environment */
+.educontent{}
+.educontent h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #07294d;
+}
+.totalcourse{
+    background-color: rgb(7, 41, 77);
+}
+
+/* Course section */
+.course-section-header{}
+.course-section-header h2 {
+    display: inline-block;
+    width: 300px;
+    font-size: 49px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    color: #07294d;
+}
+.course-section-header span {
+    display: inline-block;
+    width: 3px;
+    height: 78px;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-left: 45px;
+}
+.course-section-header p {
+    display: inline-block;
+    font-size: 20px;
+    width: 490px;
+    padding: 0 63px;
+    font-family: 'Exo 2';
+    position: relative;
+    top: -21px;
+    color: #07294d;
+}
+.card {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.crd-color-1{
+    background-color: #07294d;
+}
+.crd-color-2{
+    background-color: #0c8b51;
+}
+.crd-color-3{
+    background-color: #2f7ad5;
+}
+.crd-color-4{
+    background-color: #27b8a7;
+}
+.crd-color-5{
+    background-color: #1ec1d9;
+}
+.crd-color-6{
+    background-color: #d94da6;
+}
+.crd-color-7{
+    background-color: #eab830;
+}
+.crd-color-8{
+    background-color: #753b76;
+}
+
+.courseinfo {
+    border-bottom: 2px solid white;
+}
+.courseinfo a {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 0;
+    font-family: 'Exo 2';
+    text-decoration: none;
+}
+.subj{}
+.subj a {
+    color: white;
+    font-weight: 400;
+    font-family: 'Exo 2';
+}
+span.duration {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 14px;
+    padding-right: 5px;
+    font-weight: 600;
+}
+span.course-price {
+    color: white;
+    font-size: 15px;
+    border-left: 2px solid white;
+    padding-left: 7px;
+    font-weight: 600;
+}
+.apply{}
+.apply a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 14px;
+    margin-top: 12px;
+}
+.apply a i {
+    color: white;
+    margin-left: 3px;
+}
+a.onlineapply {
+    margin-right: 24px;
+}
+span.rating {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+span.rating i {
+    color: white;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+
+/* course-facility-section */
+.bgfacility {
+    width: 295px;
+    margin: auto;
+    padding: 20px 17px;
+}
+.bgfacility:hover{
+    transition: .5s;
+    box-shadow: 0 0 12px -7px;
+}
+.facility-icon{}
+.facility-icon img {
+    width: 66px;
+}
+.facility-details {
+    display: inline-block;
+    padding-left: 0;
+}
+.facility-details p {
+    font-size: 22px;
+    font-family: 'Exo 2';
+    color: #07294d;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 9px;
+}
+
+/* campas video section */
+.campas-contect-bgc{}
+.bgc-blue{
+    background-color: #07294d;
+    height: 650px;
+}
+
+.bgc-ash {
+    background-color: #f1f1f1;
+    height: 650px;
+}
+.bgc-color-left {
+    position: relative;
+    background-color: #f1f1f1;
+}
+.bgc-color-right {
+    background-color: #f1f1f1;
+}
+.campas-video-left {
+    background-color: #07294d;
+    width: 70%;
+    height: 500px;
+}
+.campas-video-left img {
+    position: absolute;
+    width: 85%;
+    right: 0;
+    top: 13%;
+}
+.campas-video-right {
+    margin-left: 40px;
+}
+.campas-video-right h2 {
+    font-family: 'Exo 2';
+    font-size: 43px;
+    font-weight: 800;
+    display: inline-block;
+    width: 400px;
+    margin-top: 53px;
+    color: #07294d;
+}
+.campas-video-right h3 {
+    font-size: 41px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    margin-bottom: 28px;
+    color: #07294d;
+}
+.campas-video-right p {
+    font-family: 'Exo 2';
+    font-size: 19px;
+    width: 400px;
+    margin-bottom: 25px;
+    color: #07294d;
+}
+.campas-video-right-border {
+    width: 189px;
+    background-color: #07294d;
+    height: 3px;
+    margin: 31px 0;
+}
+.vdo-btn{}
+.vdo-btn a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    color: #07294d;
+    margin-top: 20px;
+}
+.vdo-btn a:hover{
+    color: #0c8b51;
+    transition: .5s;
+}
+.vdo-btn a:hover i{
+    color: #0c8b51;
+    transition: .5s;
+}
+.vdo-btn a i {
+    color: #07294d;
+    margin-right: 10px;
+}
+
+/*  Upcoming section */
+.upcoming-header{}
+.upcoming-header h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Exo 2';
+    font-weight: 800;
+    width: 230px;
+    color: #07294d;
+}
+.upcoming-header span {
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    height: 54px;
+    margin: 10px 35px;
+}
+.upcoming-header p{}
+.upcoming-header-menu {
+    display: inline-block;
+
+}
+.upcoming-header-menu ul {
+    margin-bottom: 0;
+    position: relative;
+    top: -30px;
+}
+.upcoming-header-menu ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: -4px;
+}
+.upcoming-header-menu ul li a {
+    border: 1px solid rgba(12, 139, 81, .5);
+    display: inline-block;
+    padding: 7px 23px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    
+}
+.upcoming-header-menu ul li:first-child a{
+    color: white;
+    background-color:#0c8b51;
+}
+
+
+.upcoming-contect {
+    background-color: #f1f1f1;
+    text-align: center;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.upcoming-contect p {
+    font-family: 'Exo 2';
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.upcoming-contect h3 {
+    font-family: 'Exo 2';
+    font-size: 28px;
+    font-weight: 700;
+    color: #838b51;
+    margin-bottom: 15px;
+}
+.upcoming-contect a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Exo 2';
+    font-weight: 600;
+}
+.upcoming-contect a i{
+    color: black;
+    margin-left: 8px;
+}
+a.event-name{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: #062a4b;
+    font-family: 'Exo 2';
+    font-weight: 700;
+}
+/* upcoming hover section */
+.upcoming-contect:hover{
+    background-color: #062a4b;
+    transition: .5s;
+    color: white;
+}
+.upcoming-contect:hover p{
+    color: white;
+}
+.upcoming-contect:hover a{
+    color: white;
+}
+.upcoming-contect:hover i{
+    color: white;
+}
+
+/* Testimonial section */
+.reviewbackground {
+    background-color: #f1f1f1;
+    border: none;
+    border-top: 3px solid #0c8b51;
+    padding: 30px 42px;
+}
+.review-heading{}
+.review-heading h2 {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    display: inline-block;
+    font-size: 45px;
+    margin-top: 131px;
+    color: #07294d;
+}
+.review-heading p {
+    font-family: 'Exo 2';
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 20px;
+}
+.review-border {
+    width: 154px;
+    height: 2px;
+    background-color: #062a4b;
+    margin: 20px 0;
+}
+
+.student{}
+.student img {
+    width: 95%;
+}
+.student-feedback{}
+.student-feedback p {
+    font-family: 'Exo 2';
+    font-size: 18px;
+    font-weight: 500;
+}
+.feedback-icon {
+    text-align: right;
+}
+.feedback-icon i {
+    color: #228d51;
+    font-size: 49px;
+    display: inline-block;
+    margin-top: -3px;
+}
+
+.student-info {
+    margin-top: 25px;
+}
+.student-info p {
+    display: inline-block;
+    font-size: 19px;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    color: #07294d;
+    padding-left: 14px;
+}
+.name {
+    padding: 0 24px;
+    border-right: 1px solid #07294d;
+}
+
+/* achivement section */
+.achivment-background{
+    background-image: url(img/campus-1.webp);
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+.achivment-background::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(6, 41, 77, .8);
+    z-index: -1;
+}
+.achiv-cntnt{}
+.achiv-cntnt h2 {
+    color: white;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 45px;
+}
+.achiv-cntnt h2 i {
+    margin-left: 10px;
+    font-family: 'Exo 2';
+}
+.achiv-cntnt p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Exo 2';
+    font-weight: 500;
+}
+/* Vlog section */
+
+.vlog-section {
+    margin-bottom: 70px;
+}
+.vlog-content-section{}
+.vlog-heading{
+    text-align: center;
+}
+.vlog-heading h2 {
+    font-size: 50px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    color: #06294d;
+}
+.vlog-heading-border {
+    width: 150px;
+    height: 3px;
+    background-color: #06294d;
+    margin: 35px auto;
+}
+.vlog-heading p {
+    font-family: 'Exo 2';
+    font-size: 17px;
+    width: 418px;
+    font-weight: 600;
+    margin: auto;
+    color: #07294d;
+}
+.vlog-content-section a {
+    display: inline-block;
+    text-decoration: none;
+    color: #06294d;
+    font-family: 'Exo 2';
+    font-size: 28px;
+    font-weight: 600;
+}
+.vlog-content-section a:hover{
+    transition: .5s;
+    color: #228d51;
+}
+.vlog-image{}
+.vlog-image img{
+    max-width: 100%;
+}
+
+.vlog-content {
+    padding: 0 25px;
+    background-color: #F1F1F1;
+    padding-bottom: 25px;
+}
+
+.vlog-date-time ul {
+    padding: 0;
+    text-align: center;
+}
+.vlog-date-time ul li {
+    display: inline-block;
+    margin-left: -4px;
+    margin-top: 25px;
+}
+.vlog-date-time ul li a {
+    display: inline-block;
+    color: #0a8a4f;
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0 16px;
+}
+
+.vlog-readmore{}
+.vlog-readmore a i {
+    margin-left: 6px;
+    font-size: 14px;
+}
+.vlog-readmore a {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #0b8b50;
+}
+.vlog-card {
+    padding: 0;
+    border: none;
+}
+
+/* News latter section */
+.newslatter-section {
+    z-index: 9;
+    left: 106px;
+}
+.news-heading{}
+.news-heading h2 {
+    font-family: 'Exo 2';
+    font-size: 45px;
+    font-weight: 800;
+    color: #07294d;
+}
+.news-heading p {
+    font-family: 'Exo 2';
+    font-size: 19px;
+    color: #07294d;
+    font-weight: 600;
+    width: 385px;
+}
+
+.news-border {
+    display: inline-block;
+    width: 155px;
+    height: 3px;
+    background-color: #07294d;
+    margin: 25px 0;
+}
+
+.news-div {
+    background-color: #f1f1f1;
+    padding: 40px;
+    margin-bottom: -151px;
+}
+.news-formdiv {
+    text-align: right;
+}
+.news-form {
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+    padding-left: 20px;
+    padding-right: 115px;
+    border: none;
+    background-color: #e2e2e2;
+}
+button.subscribe-btn {
+    border: none;
+    margin-left: 0;
+    font-size: 18px;
+    background-color: #0c8b51;
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    position: relative;
+    left: -4px;
+}
+button.subscribe-btn:hover{
+    background-color: #07294d;
+    transition: .5s;
+    color: white;
+}
+form.subscribe-form {
+    margin-top: 111px;
+}
+
+/* footer menu section */
+.footer-menu-section {
+    background-image: url(img/campus-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 300px;
+    padding-bottom: 120px;
+    position: relative;
+    z-index: -1;
+}
+.footer-menu-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 41, 77, .8);
+    z-index: -1;
+}
+
+.footer-1strow{}
+.footer-1strow h3 {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.footer-1strow ul {
+    text-align: left;
+    padding-left: 0;
+}
+.footer-1strow ul li {
+    display: block;
+}
+.footer-1strow ul li a {
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.footer-1strow ul li a:hover{
+    color: #0b8b50;
+    transition: .5s;
+}
+
+.footer-2ndrow{}
+.footer-2ndrow h3{
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.footer-2ndrow ul{
+    text-align: left;
+    padding-left: 0;
+}
+.footer-2ndrow ul li{
+    display: block;
+}
+.footer-2ndrow ul li a{
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.footer-2ndrow ul li a:hover{
+    color: #0b8b50;
+    transition: .5s;
+}
+.footer-3rdrow{}
+.footer-3rdrow h3{
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.footer-3rdrow ul{
+    text-align: left;
+    padding-left: 0;
+}
+.footer-3rdrow ul li{
+    display: block;
+}
+.footer-3rdrow ul li a{
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 14px;
+    text-decoration: none;
+}
+.footer-3rdrow ul li a:hover{
+    color: #0b8b50;
+    transition: .5s;
+}
+.footer-4throw{}
+.footer-4throw h3{
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.footer-4throw p {
+    color: white;
+    font-family: 'Exo 2';
+    font-weight: 400;
+}
+
+.contact-number{}
+.contact-number ul{
+    text-align: left;
+    padding-left: 0;
+}
+.contact-number ul li{
+    display: block;
+}
+.contact-number ul li a{
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+.contact-number ul li a:hover{
+    color: #0b8b50;
+    transition: .5s;
+}
+
+.mail-address{}
+.mail-address ul{
+    text-align: left;
+    padding-left: 0;
+}
+.mail-address ul li{
+    display: block;
+}
+.mail-address ul li a{
+    color: white;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+.mail-address ul li a:hover{
+    color: #0b8b50;
+    transition: .5s;
+}
+
+/* Social menu */
+.social-footer {
+    padding: 10px 0;
+}
+.social-left{
+    text-align: center;
+}
+.social-left p {
+    color: #06294d;
+    font-family: 'Exo 2';
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.social-left p a {
+    text-decoration: none;
+    color: #06294d;
+    font-family: 'Exo 2';
+}
+
+.social-right{}
+.social-right ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.social-right ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.social-right ul li a {
+    display: inline-block;
+    padding: 0 25px;
+}
+.social-right ul li a i{
+    color: #06294d;
+}
